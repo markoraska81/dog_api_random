@@ -1,0 +1,88 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.navbar {
+    background: #eee;
+}
+
+.navbar .navbar-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar .navbar-container img {
+    width: 80px;
+}
+
+.navbar .navbar-container h1 {
+    border-radius: 5px;
+    border: 1px solid gray;
+    background: #fff;
+    padding: 10px;
+    width: 320px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+
+
+.dog-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dog-container img {
+    margin-top: 30px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    box-shadow: 0 0 4px 0;
+    padding: 10px;
+}
+
+.dog-container #button {
+    margin-top: 25px;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    background: tomato;
+    font-weight: 600;
+    font-family: sans-serif;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 60px;
+}
+
+.footer-container {
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer-container span {
+    font-size: 16px;
+    font-family: sans-serif;
+    border: solid 1px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0;
+    background-color: #000;
+    color: #fff;
+}
